@@ -22,7 +22,7 @@ vagrant up
 This step takes a *long time* where nothing appears to happen, as it has to generate private keys on a virtual machine. On a 2012 MacBook Pro 2 GHz Intel Core i7 with 16 GB of RAM and an SSD, the `vagrant up` process took about 12 minutes.
 
 About
-----
+-----
 
 A really basic FreeIPA server.
 
