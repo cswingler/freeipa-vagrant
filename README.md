@@ -1,7 +1,23 @@
 freeipa-vagrant
 ===============
 
-Usage: Checkout, run "vagrant up".
+Dependencies
+------------
+* Vagrant
+* vagrant-hosts plugin
+
+Usage
+-----
+
+Install vagrant-hosts plugin:
+```
+vagrant plugin install vagrant-hosts
+```
+
+And then:
+```
+vagrant up
+```
 
 A really basic FreeIPA server.
 
