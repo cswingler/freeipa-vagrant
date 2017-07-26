@@ -11,6 +11,10 @@ package { 'epel-release':
   ensure => installed
 }
 
+package { 'iptables-services':
+    ensure  => installed,
+}
+
 file { '/etc/yum.repos.d/epel.repo':
   ensure => present,
   content => '[epel]
