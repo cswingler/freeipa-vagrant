@@ -22,6 +22,10 @@ Vagrant.configure(2) do |config|
     sed -i 's/127.0.1.1.*freeipa.example.org.*//' /etc/hosts
   SHELL
 
+  config.vm.provider "virtualbox" do |vb|
+    # Customize the amount of memory on the VM:
+    vb.memory = "1024"
+  end
 
   # Forwarding interesting ports from 
   # http://docs.fedoraproject.org/en-US/Fedora/15/html/FreeIPA_Guide/installing-ipa.html#tab.ipa-ports:
